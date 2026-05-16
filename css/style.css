@@ -1,0 +1,692 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    padding: 10px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+header .digand {
+    color: #45525B;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 10px;
+    list-style: none;
+}
+
+header ul li {
+    list-style: none;
+    color: black;
+}
+
+header ul li a {
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #444444;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+header ul li a:hover {
+    color: #FF8A63;
+}
+
+header ul li a:active {
+    color: #444444;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100dvh;
+    background-image: url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.hero-info {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-btn {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%);
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3a4443;
+    background: none;
+    font-size: 20px;
+    color: #3a4443;
+    animation: fade 2s linear infinite alternate;
+}
+
+.horoming {
+    margin-left: 136px;
+    margin-top: 100px;
+}
+
+.horoming .nimaga {
+    color: #FF8A63;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #45525B;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.pin {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pin {
+    margin-left: 728px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0px;
+    font-family: sans-serif;
+}
+
+.pin img {
+    width: 80px;
+    height: 80px;
+}
+
+.pin .onm {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.nim {
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nim .mesa {
+    color: #FF8A63;
+}
+
+.nim {
+    color: #45525B;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.imon {
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    position: absolute;
+    margin-left: 750px;
+    top: 1700px;
+}
+
+.cars {
+    position: absolute;
+    margin-left: 750px;
+    top: 1880px;
+}
+
+.carc {
+    position: absolute;
+    margin-left: 750px;
+    top: 2100px;
+}
+
+.din img {
+    width: 100%;
+    margin-top: 100px;
+    height: 624px;
+}
+
+.gin {
+    margin-top: 50px;
+    margin-left: 136px;
+    margin-top: 99.81;
+    font-family: sans-serif;
+}
+
+.gin span {
+    color: #FF8A63;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.gin h1 {
+    font-weight: 400;
+    font-size: 36px;
+    color: #45525B;
+}
+
+.gin p {
+    margin-top: 13px;
+    color: #6F7278;
+}
+
+.nimo {
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.nimo p {
+    margin-left: 170px;
+}
+
+.nimo h4 {
+    margin-left: 145px;
+}
+
+.nimo img {
+    margin-left: 20px;
+    margin-top: 10.90px;
+}
+
+.nimo1 {
+    margin-top: 3px;
+    font-family: sans-serif;
+}
+
+.nimo1 p {
+    margin-left: 170px;
+}
+
+.nimo1 h4 {
+    margin-left: 145px;
+}
+
+.nimo1 img {
+    margin-left: 20px;
+    margin-top: 10.90px;
+}
+
+.nimo2 {
+    position: absolute;
+    top: 3205px;
+    margin-left: 400px;
+    margin-top: 3px;
+    font-family: sans-serif;
+}
+
+.nimo2 p {
+    margin-left: 170px;
+}
+
+.nimo2 h4 {
+    margin-left: 145px;
+}
+
+.nimo2 img {
+    margin-left: 20px;
+    margin-top: 10.90px;
+}
+
+.nimo3 {
+    position: absolute;
+    top: 3205px;
+    margin-left: 800px;
+    margin-top: 3px;
+    font-family: sans-serif;
+}
+
+.nimo3 p {
+    margin-left: 170px;
+}
+
+.nimo3 h4 {
+    margin-left: 145px;
+}
+
+.nimo3 img {
+    margin-left: 20px;
+    margin-top: 10.90px;
+}
+
+.nimo4 {
+    position: absolute;
+    top: 3577px;
+    margin-left: 400px;
+    margin-top: 3px;
+    font-family: sans-serif;
+}
+
+.nimo4 p {
+    margin-left: 170px;
+}
+
+.nimo4 h4 {
+    margin-left: 145px;
+}
+
+.nimo4 img {
+    margin-left: 20px;
+    margin-top: 10.90px;
+}
+
+.nimo5 {
+    position: absolute;
+    top: 3577px;
+    margin-left: 800px;
+    margin-top: 3px;
+    font-family: sans-serif;
+}
+
+.nimo5 p {
+    margin-left: 170px;
+}
+
+.nimo5 h4 {
+    margin-left: 145px;
+}
+
+.nimo5 img {
+    margin-left: 20px;
+    margin-top: 10.90px;
+}
+
+.gov {
+    text-align: center;
+    margin-top: 20px
+}
+
+.nimag {
+    margin-top: 200px;
+    margin-left: 136px;
+}
+
+.nimag span {
+    color: #FF8A63;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nimag h1 {
+    color: #45525B;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 16px;
+}
+
+.nimag p {
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #6F7278;
+}
+
+.nimag button {
+    position: absolute;
+    left: 260px;
+    top: 4445px;
+    width: 20px;
+    height: 20px;
+}
+
+.framo {
+    position: absolute;
+    left: 600px;
+    top: 4200px;
+}
+
+.mos {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 99px;
+}
+
+.mos span {
+    color: #FF8A63;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.mos h2 {
+    color: #45525B;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.nov {
+    position: absolute;
+    left: 100px;
+    margin-top: 52px;
+}
+
+.niv {
+    color: #FF8A63;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.nov .qon {
+    color: #45525B;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.nov .nominh {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #6F7278;
+}
+
+.noz {
+    position: absolute;
+    left: 500px;
+    margin-top: 52px;
+}
+
+.niz {
+    color: #FF8A63;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.noz .qon {
+    color: #45525B;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.noz .nominh {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #6F7278;
+}
+
+.noc {
+    position: absolute;
+    left: 900px;
+    margin-top: 52px;
+}
+
+.nic {
+    color: #FF8A63;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.noc .qon {
+    color: #45525B;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.noc .nominh {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #6F7278;
+}
+
+.oxiri {
+    margin-top: 500px;
+    margin-left: 100px;
+}
+
+.oxiri span {
+    color: #FF8A63;
+}
+
+.oxiri h1 {
+    color: #45525B;
+}
+
+.num {
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.num h2 {
+    color: #333333;
+}
+
+.num p {
+    margin-top: 10px;
+}
+
+.nug {
+    position: absolute;
+    top: 5250px;
+    font-family: sans-serif;
+    margin-left: 600px;
+}
+
+.nug h2 {
+    color: #333333;
+}
+
+.nug p {
+    margin-top: 10px;
+}
+
+.mok {
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+.mok button {
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.mig {
+    display: block;
+    top: 20px;
+    text-align: center;
+    margin-top: 200px;
+    background-color: #444444;
+    color: #FAFAFC;
+    height: 250px;
+
+}
+
+.mig .bnr {
+    width: 102px;
+    height: 44px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: blue;
+    transition: all 2s;
+    color: #6F7278;
+}
+
+.mig .bnr:hover {
+    background-color: white;
+}
+
+.ww {
+    margin-top: 50px;
+}
+
+.me {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nonp{
+    margin-top: 10px;
+}
+.mig button {
+    width: 122px;
+    height: 44px;
+    border-radius: 5px;
+    color: #6F7278;
+    transition: all 2s;
+}
+
+.mig button:hover {
+    background-color: blue;
+}
+.onimu{
+    background-color:#333333;
+    text-align: center;
+    display: block;
+    height: 250px;
+}
+.onimu .lom{
+    margin-top: 100px;
+}
+.numi{
+    height: 250px;
+    background-color:#333333;
+    font-family: sans-serif;
+}
+.numi span{
+    color: #FF8A63;
+    margin-left: 132px;
+}
+.numi p{
+    margin-left: 132px;
+    margin-top: 9px;
+    color: #FFFFFF;
+}
+.numo2{
+    margin-top: 80px;
+    position: absolute;
+    top: 6070px;
+    display: block;
+    font-family: sans-serif;
+    margin-left: 200px;
+}
+.numo2 span{
+    color: #FF8A63;
+    margin-left: 132px;
+}
+.numo2 p{
+    margin-left: 132px;
+    margin-top: 9px;
+    color: #FFFFFF;
+}
+
+
+.numo3{
+    margin-top: 80px;
+    position: absolute;
+    top: 6070px;
+    display: block;
+    font-family: sans-serif;
+    margin-left: 350px;
+}
+.numo3 span{
+    color: #FF8A63;
+    margin-left: 200px;
+}
+.numo3 p{
+    margin-left: 200px;
+    margin-top: 9px;
+    color: #FFFFFF;
+}
+.numy{
+    position: absolute;
+    top: 6180px;
+    text-align: center;
+    margin-left: 700px;
+}
+.muny p{
+    width: 450px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+footer .numy input{
+    position: relative;
+    width: 380px;
+    height: 48px;
+    margin-top: 15px;
+    border-radius: 10px; 
+    margin-left: 155px; 
+}
+footer .numy button{
+    position: absolute;
+    width: 73px;
+    height: 39px;
+    border-radius: 10px;
+    background-color: #3A4443;
+    color: white;
+    margin-left: -85px;
+    margin-top: 20px;
+    transition: all 2s;
+}
+footer .numy button:hover{
+    background-color: blueviolet;
+}
+footer .end {
+    display: flex;
+    gap: 650px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+footer .end .text h5{
+    color: white;
+}
+
+footer .end .log a {
+    color: white;
+}
+
